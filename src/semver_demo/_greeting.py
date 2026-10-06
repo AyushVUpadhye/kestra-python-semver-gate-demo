@@ -1,6 +1,9 @@
-def greet(name):
-    """Return a greeting for name."""
-    return f"Hello, {name}!"
+GREETINGS = {"en": "Hello", "fr": "Bonjour"}
+
+
+def greet(name, language):
+    """Return a greeting for name in language (en or fr)."""
+    return f"{GREETINGS[language]}, {name}!"
 
 
 class Greeter:
@@ -9,9 +12,9 @@ class Greeter:
     def __init__(self, punctuation="!"):
         self.punctuation = punctuation
 
-    def greet(self, name):
-        """Return a greeting for name."""
-        return f"Hello, {name}{self.punctuation}"
+    def greet(self, name, language):
+        """Return a greeting for name in language (en or fr)."""
+        return f"{GREETINGS[language]}, {name}{self.punctuation}"
 
 
 def farewell(name):

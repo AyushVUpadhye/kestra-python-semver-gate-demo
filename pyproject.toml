@@ -4,6 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "semver-demo"
-version = "1.1.0"
+version = "2.0.0"
 description = "Tiny package used to demonstrate the Kestra Python Release SemVer Gate."
 requires-python = ">=3.9"
