@@ -12,3 +12,8 @@ class Greeter:
     def greet(self, name):
         """Return a greeting for name."""
         return f"Hello, {name}{self.punctuation}"
+
+
+def farewell(name):
+    """Return a farewell for name."""
+    return f"Goodbye, {name}!"

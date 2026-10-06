@@ -1,5 +1,5 @@
 """Tiny package used to demonstrate the Kestra Python Release SemVer Gate."""
 
-from ._greeting import Greeter, greet
+from ._greeting import Greeter, farewell, greet
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"
